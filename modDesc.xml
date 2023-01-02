@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="72">
     <author>SbSh / Frvetz</author>
-    <version>0.0.1.5</version>
+    <version>0.1.0.0</version>
 
     <title>
         <en>Random Fuels Prices For Diesel and AdBlue(DEF)</en>
@@ -10,9 +10,13 @@
 
     <description>
         <en><![CDATA[Wie im realen Leben verändert sich immer wieder der Dieselpreis und hin und wieder auch der AdBlue(DEF) Preis.
-Wenn man mal einen günstigen Preis an der Tankstelle hat, sollte man zuschlagen und seinen Tank am Hof füllen - es wird bestimmt wieder teurer.]]></en>
+Wenn man mal einen günstigen Preis an der Tankstelle hat, sollte man zuschlagen und seinen Tank am Hof füllen - es wird bestimmt wieder teurer.
+
+gitHub: https://github.com/s4t4n/FS22_RandomFuelsPrices]]></en>
         <de><![CDATA[As in real life, the price of diesel keeps changing and the price of AdBlue(DEF) changes every now and then.
-if you have a cheap price at the gas station, you should strike and fill up your tank at the farm - it will definitely be more expensive again.]]></de>
+if you have a cheap price at the gas station, you should strike and fill up your tank at the farm - it will definitely be more expensive again.
+
+gitHub: https://github.com/s4t4n/FS22_RandomFuelsPrices]]></de>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
@@ -21,4 +25,23 @@ if you have a cheap price at the gas station, you should strike and fill up your
     <extraSourceFiles>
         <sourceFile filename="variprices.lua"/>
     </extraSourceFiles>
+	<l10n>
+		<text name="text_Dieselpreis">
+			<de>Akueller Dieselpreis: </de>
+			<en>current diesel price</en>
+		</text>
+		<text name="text_Defpreis">
+            <de>Akueller AdBluepreis: </de>
+			<en>current def price</en>
+        </text>
+		<text name="text_DieselpreisNew">
+			<de>Preisänderung Diesel: </de>
+			<en>diesel price changed</en>
+		</text>
+		<text name="text_DefpreisNew">
+            <de>Preisänderung AdBlue: </de>
+			<en>def price changed</en>
+        </text>
+	</l10n>
 </modDesc>
+ 
