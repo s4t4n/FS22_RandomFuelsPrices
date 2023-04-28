@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="74">
+<modDesc descVersion="73">
     <author>SbSh / Frvetz</author>
     <version>1.0.0.0</version>
 
@@ -29,7 +29,7 @@ FS22_DefPack veuillez prendre la version actuelle au moins 1.0.0.1 du Gitlab.
 github : https://github.com/s4t4n/FS22_RandomFuelsPrices]]></fr>
     </description>
 
-    <iconFilename>icon_RandomFuelsPrices.dds</iconFilename>
+    <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
 
     <extraSourceFiles>
